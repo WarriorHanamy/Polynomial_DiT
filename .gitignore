@@ -1,0 +1,3 @@
+checkpoints/Polynomial-DiT-local/*
+logs/*
+__pycache__/
