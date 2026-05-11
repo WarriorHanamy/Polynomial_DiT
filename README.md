@@ -11,7 +11,7 @@ uv sync
 ### Download Checkpoints
 
 ```bash
-uv run checkpoints/download.py
+uv run download-checkpoints
 ```
 
 This will download pre-trained model weights from HuggingFace.

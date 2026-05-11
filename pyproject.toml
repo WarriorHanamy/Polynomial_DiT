@@ -17,6 +17,7 @@ dependencies = [
 
 [project.scripts]
 demo = "app:main"
+download-checkpoints = "checkpoints.download:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["."]
