@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "polynomial-dit"
+version = "0.1.0"
+description = "Polynomial DiT trajectory prediction"
+requires-python = "==3.8.*"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "torch",
+]
+
+[project.scripts]
+demo = "app:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[dependency-groups]
+dev = []
